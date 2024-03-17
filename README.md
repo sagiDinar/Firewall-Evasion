@@ -16,8 +16,10 @@ nmap -sV -Pn -S "spoofed ip"
 nmap -sV -Pn -g 80 "target ip"
 
 # Data length and fragmentation
-nmap -sS -Pn -f "target ip"\n
+nmap -sS -Pn -f "target ip"
+
 nmap -sS -Pn -ff "target ip"
+
 nmap -sS -Pn --data-length 128 "target ip"
 
 # Port tunneling useful wen you doing Lateral Movement
