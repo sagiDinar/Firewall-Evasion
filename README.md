@@ -9,7 +9,7 @@ nmap -sV -Pn -D RND,<"REAL IP OF THE ATTACKER">, RND, RND <target ip>
 # Proxy
 nmap -sV -Pn --proxies <IP OF THE PROXY OR URL> <target ip>
 # Spoofed IP
-nmap -sV -Pn -S <spoofed ip>
+nmap -sV -Pn -S "spoofed ip"
 
 # Fixed src port
 # If the attacker knows a port that allowd he can execute a port scat through this port
