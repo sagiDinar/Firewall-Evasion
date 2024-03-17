@@ -29,7 +29,7 @@ nmap -sS -Pn --data-length 128 "target ip"
 nc -lvnp 80 -c "the ip address you want to scan the port" 
 ## In the attacker machine:
 nc "ip address of the controlled server" 80 
-## The result will be the interaction with <the ip address you want to scan> <the port>
+# The result will be the interaction with the ip address you want to scan the port
 
 
 
