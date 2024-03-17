@@ -3,7 +3,7 @@ Firewall Evasion techniques with Nmap and Port tunneling.
 
 # Decoy
 nmap -sV -Pn -D 10.0.0.1, 10.10.0.12,RealIP Attacker, 172.16.1.13  "target ip"
-#this thecnice wil obfuscate the real ip address of the attacker
+#this technique wil obfuscate the real ip address of the attacker
 nmap -sV -Pn -D RND,"REAL IP OF THE ATTACKER", RND, RND "target ip"
 
 # Proxy
